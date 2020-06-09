@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url(../fonts/baloo-bhaijaan-regular.ttf);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+li {
+    list-style: none !important;
+}
