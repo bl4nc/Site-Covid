@@ -1,13 +1,18 @@
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
 .makeLogo {
     font-family: 'baloo';
-    font-size: 35pt;
     color: #00C4CC;
 }
 
 .covid19t {
     color: #00C4CC;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25pt;
     font-weight: 900;
 }
 
@@ -30,7 +35,8 @@
 }
 
 #logo {
-    max-width: 65%;
+    width: 50%;
+    max-width: 60%;
 }
 
 .zoom {
@@ -39,7 +45,7 @@
 }
 
 .zoom img {
-    max-width: 100%;
+    width: 50%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;

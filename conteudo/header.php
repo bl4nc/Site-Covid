@@ -1,4 +1,32 @@
-    <div class="flex">
+<div class="container" id="menu">
+    <div id="logo">
+        <a href="#">
+            <div class="zoom rounded float-left">
+                <img src="midia/logo-covid-feira.png" id="logo">
+            </div>
+
+        </a>
+
+    </div>
+
+
+
+    <div  id="mkcovid">
+        <a class="h5" href="#">
+            <span class="navbar-text makeLogo" id="opc">
+                make
+                <span class="covid19t" id="opc">/COVID19 </span>
+            </span>
+
+        </a>
+    </div>
+
+
+
+</div>
+
+
+<!---    
         <div class="container">
 
             <nav class="navbar navbar-expand- " id="navbarText">
@@ -27,15 +55,8 @@
                     </div>
                 </div>
             </nav>
+            
+        </div> -->
 
 
-
-
-
-
-
-
-
-
-        </div>
-    </div>
+</div>
