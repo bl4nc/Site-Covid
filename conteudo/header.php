@@ -1,8 +1,8 @@
-<header>
+<header class="mt-5 mb-5">
     <div class="container mt-2" id="menu">
         <div id="logo">
             <a href="#">
-                <div class="zoom rounded float-left">
+                <div class="zoom float-left">
                     <img src="midia/logo-covid-feira.png" id="logo">
                 </div>
             </a>

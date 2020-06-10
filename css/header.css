@@ -37,11 +37,12 @@
 #logo {
     width: 80%;
     max-width: 70%;
+    padding: 0;
+    margin: 0;
 }
 
 .zoom {
-    padding: 5%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .zoom img {
@@ -73,6 +74,7 @@
 
 .texto-make{
     font-size: 30px;
+    text-align: center;
 }
 
 @media screen and (max-width: 995px){
@@ -82,6 +84,6 @@
 }
 @media screen and (max-width: 500px){
     .texto-make{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
