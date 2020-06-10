@@ -41,23 +41,40 @@
             <div class="card bg-vermelho">
                 <div class="card-body">
                 <h5 class="card-title">QUANTIDADE DE INFECTADOS</h5>
-                <p class="card-text">1.025</p>
+                <p class="card-text pt-3">1.025</p>
                 </div>
             </div>
 
             <div class="card bg-verde">
                 <div class="card-body">
                 <h5 class="card-title">QUANTIDADE DE CURADOS</h5>
-                <p class="card-text">233</p>
+                <p class="card-text pt-3">233</p>
                 </div>
             </div>
 
             <div class="card bg-amarelo">
                 <div class="card-body">
                 <h5 class="card-title">QUANTIDADE DE GASTOS</h5>
-                <p class="card-text">1.2mi</p>
+                <p class="card-text pt-3">1.2mi</p>
                 </div>
             </div>
         </div>
     </section> 
+
+    <section class="secao_boletins mt-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <h5>DATA DO BOLETIM</h5>        
+            </div>
+            <div class="col-sm-3">
+                <h5>QUANTIDADE DE INFECTADOS</h5>
+            </div>
+            <div class="col-sm-3">
+                <h5>QUANTIDADE DE CURADOS</h5>
+            </div>
+            <div class="col-sm-3">
+                <h5>QUANTIDADE DE GASTOS</h5>
+            </div>
+        </div>
+
 </main>

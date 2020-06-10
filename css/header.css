@@ -77,13 +77,3 @@
     text-align: center;
 }
 
-@media screen and (max-width: 995px){
-    .texto-make{
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 500px){
-    .texto-make{
-        font-size: 22px;
-    }
-}
