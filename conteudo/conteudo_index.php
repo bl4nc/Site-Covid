@@ -62,7 +62,7 @@
     </section> 
 
     <section class="secao_boletins mt-5">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-3">
                 <h5>DATA DO BOLETIM</h5>        
             </div>
@@ -75,6 +75,82 @@
             <div class="col-sm-3">
                 <h5>QUANTIDADE DE GASTOS</h5>
             </div>
+        </div> -->
+
+        <div class="table-responsive">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th scope="col">DATA BOLETIM</th>
+                        <th scope="col">QUANTIDADE DE INFECTADOS</th>
+                        <th scope="col">QUANTIDADE DE CURADOS</th>
+                        <th scope="col">QUANTIDADE DE GASTOS</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!-- DATA BOLETIM -->
+                        <th scope="row">10/06/2020</th>
+
+                        <!-- QUANTIDADE DE INFECTADOS -->
+                        <td>
+                            1.025
+                        </td>
+
+                        <!-- QUANTIDADE DE CURADOS -->
+                        <td>
+                            233
+                        </td>
+                        
+                        <!-- QUANTIDADE DE GASTOS -->
+                        <td>
+                            1.2mi
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <!-- DATA BOLETIM -->
+                        <th scope="row">09/06/2020</th>
+
+                        <!-- QUANTIDADE DE INFECTADOS -->
+                        <td>
+                            1.025
+                        </td>
+
+                        <!-- QUANTIDADE DE CURADOS -->
+                        <td>
+                            233
+                        </td>
+                        
+                        <!-- QUANTIDADE DE GASTOS -->
+                        <td>
+                            1.2mi
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <!-- DATA BOLETIM -->
+                        <th scope="row">08/06/2020</th>
+
+                        <!-- QUANTIDADE DE INFECTADOS -->
+                        <td>
+                            1.025
+                        </td>
+
+                        <!-- QUANTIDADE DE CURADOS -->
+                        <td>
+                            233
+                        </td>
+                        
+                        <!-- QUANTIDADE DE GASTOS -->
+                        <td>
+                            1.2mi
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
+    </section>
 </main>

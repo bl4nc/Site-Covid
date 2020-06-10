@@ -7,3 +7,5 @@
 <?php require_once "conteudo/conteudo_index.php"?>
 
 <?php require_once "conteudo/endHTML.php"?>
+
+<?php require_once "conteudo/footer.php"?>

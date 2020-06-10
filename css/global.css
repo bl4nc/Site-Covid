@@ -12,3 +12,6 @@ a {
 ul, li {
     list-style: none !important;
 }
+tr, th, td{
+    font-family: 'Montserrat', sans-serif;
+}
