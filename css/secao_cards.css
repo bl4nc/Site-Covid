@@ -1,0 +1,28 @@
+
+.secao_cards .bg-vermelho{
+    background-color: #9b0d02;
+}
+.secao_cards .bg-verde{
+    background-color:  #007c34;
+}
+.secao_cards .bg-amarelo{
+    background-color: #dfcc3e;
+}
+.secao_cards .card-body h5{
+    font-size: 20px;
+    color: #ffffff;
+}
+.secao_cards .card-body p{
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.secao_cards h4{
+    font-size: 26px;
+    margin: 0;
+}
+.secao_cards p{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
