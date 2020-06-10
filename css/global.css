@@ -4,21 +4,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
 a {
     text-decoration: none !important;
 }
 
-ul,
-li {
+ul, li {
     list-style: none !important;
-}
-
-.dist_menu {
-    margin-top: 20% !important;
-}
-
-@media (max-width: 767px) {
-    .dist_menu {
-        margin-top: 30% !important;
-    }
 }

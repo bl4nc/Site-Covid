@@ -35,8 +35,8 @@
 }
 
 #logo {
-    width: 50%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 70%;
 }
 
 .zoom {
@@ -69,4 +69,19 @@
     text-align: center;
     font-weight: 700;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.texto-make{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 995px){
+    .texto-make{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 500px){
+    .texto-make{
+        font-size: 18px;
+    }
 }
