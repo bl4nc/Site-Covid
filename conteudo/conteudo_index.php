@@ -62,21 +62,6 @@
     </section> 
 
     <section class="secao_boletins mt-5">
-        <!-- <div class="row">
-            <div class="col-sm-3">
-                <h5>DATA DO BOLETIM</h5>        
-            </div>
-            <div class="col-sm-3">
-                <h5>QUANTIDADE DE INFECTADOS</h5>
-            </div>
-            <div class="col-sm-3">
-                <h5>QUANTIDADE DE CURADOS</h5>
-            </div>
-            <div class="col-sm-3">
-                <h5>QUANTIDADE DE GASTOS</h5>
-            </div>
-        </div> -->
-
         <div class="table-responsive">
             <table class="table table-borderless">
                 <thead>
@@ -89,63 +74,147 @@
                 </thead>
 
                 <tbody>
+                    <!-- *** BOLETIM 10/06/2020 *** -->
                     <tr>
                         <!-- DATA BOLETIM -->
                         <th scope="row">10/06/2020</th>
 
                         <!-- QUANTIDADE DE INFECTADOS -->
                         <td>
-                            1.025
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.025</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-vermelho" role="progressbar" style="width: 70px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
 
                         <!-- QUANTIDADE DE CURADOS -->
                         <td>
-                            233
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>233</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-verde" role="progressbar" style="width: 70px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                         
                         <!-- QUANTIDADE DE GASTOS -->
                         <td>
-                            1.2mi
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.2mi</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-amarelo" role="progressbar" style="width: 70px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                     </tr>
 
+                    <!-- *** BOLETIM 09/06/2020 *** -->
                     <tr>
                         <!-- DATA BOLETIM -->
                         <th scope="row">09/06/2020</th>
 
                         <!-- QUANTIDADE DE INFECTADOS -->
                         <td>
-                            1.025
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.025</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-vermelho" role="progressbar" style="width: 60px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
 
                         <!-- QUANTIDADE DE CURADOS -->
                         <td>
-                            233
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>233</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-verde" role="progressbar" style="width: 60px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                         
                         <!-- QUANTIDADE DE GASTOS -->
                         <td>
-                            1.2mi
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.2mi</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-amarelo" role="progressbar" style="width: 60px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                     </tr>
-                
+
+                    <!-- *** BOLETIM 08/06/2020 *** -->
                     <tr>
                         <!-- DATA BOLETIM -->
                         <th scope="row">08/06/2020</th>
 
                         <!-- QUANTIDADE DE INFECTADOS -->
                         <td>
-                            1.025
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.025</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-vermelho" role="progressbar" style="width: 50px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
 
                         <!-- QUANTIDADE DE CURADOS -->
                         <td>
-                            233
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>233</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-verde" role="progressbar" style="width: 50px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                         
                         <!-- QUANTIDADE DE GASTOS -->
                         <td>
-                            1.2mi
+                            <div class="row">
+                                <div class="col-sm-3 align-self-center">
+                                    <div>1.2mi</div>
+                                </div>
+                                <div class="col-sm-9 align-self-center">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-amarelo" role="progressbar" style="width: 50px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="1000"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                 </tbody>

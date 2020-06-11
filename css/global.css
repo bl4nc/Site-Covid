@@ -12,6 +12,17 @@ a {
 ul, li {
     list-style: none !important;
 }
+
 tr, th, td{
     font-family: 'Montserrat', sans-serif;
+}
+
+.bg-vermelho{
+    background-color: #9b0d02;
+}
+.bg-verde{
+    background-color:  #007c34;
+}
+.bg-amarelo{
+    background-color: #dfcc3e;
 }

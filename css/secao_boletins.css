@@ -1,3 +1,7 @@
 .secao_boletins h5{
     font-family: 'Montserrat', sans-serif;
 }
+.secao_boletins .progress {
+    background-color: transparent !important;
+    border-radius: 24px !important;
+}
