@@ -43,7 +43,7 @@
         </div>
     </section> 
 
-    <section class="secao_boletins mt-5">
+    <section class="secao_boletins mt-3">
         <div class="table-responsive" style="overflow-y: auto;height: 400px !important;">
             <table class="table table-borderless">
                 <thead>
