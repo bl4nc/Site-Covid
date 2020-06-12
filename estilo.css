@@ -6,6 +6,10 @@
 
 @import "./css/secao_boletins.css";
 
+@import "./css/secao_gastos.css";
+
+@import "./css/secao_tweets.css";
+
 @import "./css/media_queries.css";
 
 @import "./css/footer.css";

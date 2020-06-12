@@ -2,7 +2,7 @@
     <section class="secao_cards mt-3">
         <h4>Dados do <strong>Coronavírus</strong></h4>
         <p>Dados até: <b><?php echo date('d/m/yy', strtotime(dtBoletim())); ?></b><br>
-            <span style="color: #007c34;font-size: 8px">Dados retirados de: https://www.combateaocoronavirus.feira.br/</span>
+            <span style="color: #007c34;font-size: 16px">Dados retirados de: https://www.combateaocoronavirus.feira.br/</span>
         </p>
         
 
@@ -113,9 +113,9 @@
 
 
 
-    <section class="secao_boletins mt-5"><!-- SEÇÃO COM OS GASTOS -->
+    <section class="secao_gastos mt-5"><!-- SEÇÃO COM OS GASTOS -->
         <h4>Valores Investidos no Combate a COVID-19 FSA</h4>
-        <p style="color: #007c34;font-size: 8px">Dados retirados de: http://www.transparencia.feiradesantana.ba.gov.br/index.php?view=despesascovid</p>
+        <p style="color: #007c34;font-size: 16px">Dados retirados de: http://www.transparencia.feiradesantana.ba.gov.br/index.php?view=despesascovid</p>
 
         <div class="table-responsive">
             <table class="table table-borderless"  id="example">
@@ -170,28 +170,23 @@
         </div>
     </section>
 
+    <section class="secao_tweets mt-5">
+        <h4>Últimas informações</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mt-4" style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-4 mt-4"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <br>
-    <h4>Últimas informações</h4>
-    <br>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-4-md" style="height: 400px;overflow-x: hidden;overflow-y: auto">
-             <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-4 mt-4"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </div>
-        <div class="col-4-md"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
-            <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        </div>
-        <div class="col-4-md"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
-            <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
-    </div>
-
-   
-
+    </section>
 
 
 
