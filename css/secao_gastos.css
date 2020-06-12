@@ -2,3 +2,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
 }
+.secao_gastos p{
+    font-family: 'Montserrat', sans-serif;
+}
+.secao_gastos a {
+    color: #9b0d02;
+}
+.secao_gastos a:hover {
+    color: #007c34;
+    transition: 1s;
+}
