@@ -1,4 +1,4 @@
-<main class="container">
+<main id="conteudo" class="container">
     <section class="secao_cards mt-3">
         <!-- <h4>Dados do <strong>Coronavírus</strong></h4>
         <p>Dados até: <b><?php echo date('d/m/yy', strtotime(dtBoletim())); ?></b><br>
@@ -192,14 +192,14 @@
         <h4>Últimas informações</h4>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 mt-4 mb-4" style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-4 mt-4 mb-2" style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="col-sm-4 mt-4 mb-4"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 </div>
-                <div class="col-sm-4 mt-4 mb-4"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>

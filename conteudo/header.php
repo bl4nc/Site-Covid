@@ -1,6 +1,6 @@
-<header class="mt-3 mb-5">
-    <div class="container mt-2" id="menu">
-        <div id="logo">
+<nav class="navbar fixed-top">
+    <div class="container" id="menu">
+        <div id="logo" class="mt-2">
             <a href="#">
                 <div class="zoom float-left">
                     <img src="midia/logo-covid-feira.png" id="logo">
@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <div id="mkcovid">
+        <div id="mkcovid" class="mt-2">
             <a class="texto-make" href="#">
                 <span class="navbar-text makeLogo" id="opc">
                     make
@@ -17,4 +17,4 @@
             </a>
         </div>
     </div>
-</header>
+</nav>
