@@ -5,10 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- SEO SITE -->
-    <meta name="description" content="Site feito para ajudar a encontrar os principais dados sobre o COVID-19 na cidade de Feira de Santana, compilador em um só lugar">
-    <meta property="og:title" content="COVID-19 dados compilados Feira de Santana" />
-    <meta property="og:description" content="COVID-19 dados compilados Feira de Santana" />
-    <meta property="og:image" content="http://www.maketecnologia.com.br/covidfsa/midia/favicon.ico" />      
+    <meta property=og:title content=COVID-FSA />
+    <meta property=og:description content="COVID-19 FSA - Dados compilados e princípais notícias sobre COVID-19 em Feira de Santana"/>
+    <meta property=og:image content="http://www.maketecnologia.com.br/covidfsa/midia/no-figure.png"/>
+    <meta property=og:url content="http://www.maketecnologia.com.br/covidfsa/"/>
+    <meta property=og:site_name content=COVID-19 />
+    <meta name=description content="COVID-19 FSA - Dados compilados e princípais notícias sobre COVID-19 em Feira de Santana"/>
+    <meta name=keywords content="covid 19, feira de santana, principais noticias, pagamentos, quantidade de casos confirmados covid"/>
+    <meta name=author content="COVID-19 dados compilados Feira de Santana"/>
+    <meta name=language content=pt-br />
+    <meta name=audience content=all />
+    <meta name=robots content="index,follow"/>
     <!--FECHAMENTO SEO -->
     <link rel="shortcut icon" href="midia/favicon.ico">
     <!-- Bootstrap CSS -->

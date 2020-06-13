@@ -51,3 +51,25 @@
         
       });
 </script>
+
+
+<script>
+  const botao_email = document.querySelector(".btn-email");
+  botao_email.addEventListener("click", async function (){
+      const { value: text } = await Swal.fire({
+          title: 'Mensagem',
+          input: 'textarea',
+          inputPlaceholder: 'Digite sua mensagem'
+      })
+        
+      if (text) {
+          Swal.fire(`Sua mensagem foi: ${text}`)
+      }
+      else{
+          Swal.fire({
+              icon: "error",
+              title: "Digite alguma mensagem"
+          })
+      }
+  })
+</script>

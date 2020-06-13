@@ -4,6 +4,9 @@
         <p>Dados até: <b><?php echo date('d/m/yy', strtotime(dtBoletim())); ?></b><br>
             <span style="color: #007c34;font-size: 16px">Dados retirados de: https://www.combateaocoronavirus.feira.br/</span>
         </p> -->
+        <button class="btn-email btn-position-email">
+            <i class="fa fa-envelope"></i>
+        </button>
 
         <h4 class="mb-2">Dados do Coronavírus até:
             <strong>
@@ -36,7 +39,7 @@
 
             <div class="card bg-amarelo">
                 <div class="card-body">
-                <h5 class="card-title">QUANTIDADE DE GASTOS</h5>
+                <h5 class="card-title">QUANTIDADE DE DESPESAS<br><span style="font-size: 8px">em fase de pagamento</span></h5>
                 <p class="card-text pt-3" style="font-size: 30px">R$ <?php echo qtdeGastos(); ?><br>Milhões</p>
                 </div>
             </div>
@@ -144,7 +147,7 @@
                         <th scope="col" style="text-align: center">Credor</th>
                         <th scope="col" style="text-align: center">Valor</th>
                         <th scope="col" style="text-align: center">Natureza</th>
-                        <th scope="col" style="text-align: center">Modalidade</th>
+                        <th scope="col" style="text-align: center">Fase</th>
                     </tr>
                 </thead>
 
@@ -176,7 +179,7 @@
                                 <?php echo $dados['Natureza']; ?>
                             </td>
                             <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                <?php echo $dados['Modalidade']; ?>
+                                <?php echo "Pagamento";//$dados['Modalidade']; ?>
                             </td>                            
                         </tr>
 
