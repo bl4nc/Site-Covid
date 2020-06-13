@@ -10,8 +10,8 @@
                  <?php echo date('d/m/yy', strtotime(dtBoletim())); ?>
             </strong>
         </h4>
-        <p>
-            <strong style="font-size: 16px">Dados retirados de 
+        <p style="margin-top: -15px">
+            <strong style="font-size: 8px">Dados retirados de 
                 <a rel="noopener noreferrer" target="_blank" href="https://www.combateaocoronavirus.feira.br">
                     Combate ao Corona Vírus 
                 </a>
@@ -125,9 +125,9 @@
     </section>
 
     <section class="secao_gastos mt-5"><!-- SEÇÃO COM OS GASTOS -->
-            <h4>Valores Investidos no Combate a COVID-19 FSA</h4>
-            <p>
-                <strong> 
+            <h4>Despesas COVID-19 FSA</h4>
+            <p style="margin-top: -15px">
+                <strong style="font-size: 8px"> 
                     Dados retirados do 
                     <a rel="noopener noreferrer" target="_blank" href="http://www.transparencia.feiradesantana.ba.gov.br/index.php?view=despesascovid">
                         Portal de Transparência
@@ -154,7 +154,7 @@
                     gastos.*,
                     format(Valor,2,'de_DE') as VL 
                     FROM gastos
-                    ORDER BY Data_de_Publicacao ASC
+                    ORDER BY Data_de_Publicacao desc
                     ";
                     $query = $mysqli->query($sql);
                     while ($dados = $query->fetch_array()) {

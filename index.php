@@ -1,7 +1,4 @@
-<?php 
-require_once "conteudo/startHTML.php"; 
-
-?>
+<?php include "conteudo/start.php"; ?>
 
 <body class="index">
 

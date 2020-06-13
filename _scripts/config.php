@@ -1,8 +1,8 @@
 <?php
 $servidor = 'localhost';
-$usuario = 'root';
-$senha = '';
-$banco = 'corona_fsa';
+$usuario = 'makete07_deve';
+$senha = 'Make@2030';
+$banco = 'makete07_corona_fsa';
 // Conecta-se ao banco de dados MySQL
 $mysqli = new mysqli($servidor, $usuario, $senha, $banco);
 // Caso algo tenha dado errado, exibe uma mensagem de erro
