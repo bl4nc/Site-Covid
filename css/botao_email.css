@@ -6,7 +6,7 @@
     width: 75px; height: 75px;
     color: #fff;
     font: 30px Helvetica;
-    line-height: 65px;
+    line-height: 60px;
     text-align: center;
     background: #dfcc3e;
     cursor: pointer;
@@ -42,4 +42,12 @@
         bottom: 3%; 
         right: 3%;
     }  
+
+    .btn-email {
+        border: solid 4px #ffffff;
+        width: 65px; height: 65px;
+        color:#ffffff;
+        font: 28px Helvetica;
+        line-height: 32px;
+    }
 }
