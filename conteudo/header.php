@@ -9,7 +9,7 @@
         </div>
 
         <div id="mkcovid" class="mt-2">
-            <a class="texto-make" href="#">
+            <a class="texto-make" href="../index.php">
                 <span class="navbar-text makeLogo" id="opc">
                     make
                     <span class="covid19t" id="opc">/COVID19</span>
