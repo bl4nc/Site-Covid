@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top">
     <div class="container" id="menu">
         <div id="logo" class="mt-2">
-            <a href="#">
+            <a href="index.php">
                 <div class="zoom float-left">
                     <img src="midia/logo-covid-feira.png" id="logo">
                 </div>
