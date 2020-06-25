@@ -6,28 +6,6 @@
         </p> -->
 
 
-<!--MODAL GRÁFICO-->
-<div class="modal fade" id="modalgrafico" tabindex="-1" role="dialog" aria-
-     labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title" id="gridSystemModalLabel">COVID-19 FSA</h6>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-                
-                <canvas id="myChart"></canvas>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
-            </div>
-        </div>
-    </div>
-    </div>
-<!--FIM MODAL -->
-
         <a href="#" data-toggle="modal" data-target="#bannerformmodal" class="ml-2">
                     
             <button class="btn-email btn-position-email">
@@ -59,15 +37,15 @@
 
             <div class="card bg-verde">
                 <div class="card-body">
-                <h5 class="card-title">QUANTIDADE DE RECUPERADOS</h5>
+                <h5 class="card-title">QUANTIDADE DE CURADOS</h5>
                 <p class="card-text pt-3"><?php echo qtdeCurados(); ?></p>
                 </div>
             </div>
 
-            <div class="card bg-amarelo" style="background: #00c4cc">
+            <div class="card bg-amarelo">
                 <div class="card-body">
-                <h5 class="card-title">TOTAL DE DESPESAS<br><span style="font-size: 8px">em fase de pagamento</span></h5>
-                <p class="card-text pt-3" style="font-size: 30px">R$ <?php echo qtdeGastos(); ?></p>
+                <h5 class="card-title">QUANTIDADE DE DESPESAS<br><span style="font-size: 8px">em fase de pagamento</span></h5>
+                <p class="card-text pt-3" style="font-size: 30px">R$ <?php echo qtdeGastos(); ?><br>Milhões</p>
                 </div>
             </div>
         </div>
