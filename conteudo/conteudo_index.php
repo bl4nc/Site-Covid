@@ -1,32 +1,28 @@
 <main id="conteudo" class="container">
+
     <section class="secao_cards mt-3">
-        <!-- <h4>Dados do <strong>Coronavírus</strong></h4>
-        <p>Dados até: <b><?php echo date('d/m/yy', strtotime(dtBoletim())); ?></b><br>
-            <span style="color: #007c34;font-size: 16px">Dados retirados de: https://www.combateaocoronavirus.feira.br/</span>
-        </p> -->
 
+        <!--MODAL GRÁFICO-->
+        <div class="modal fade" id="modalgrafico" tabindex="-1" role="dialog" aria-
+            labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6 class="modal-title" id="gridSystemModalLabel">COVID-19 FSA</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <canvas id="myChart"></canvas>
 
-<!--MODAL GRÁFICO-->
-<div class="modal fade" id="modalgrafico" tabindex="-1" role="dialog" aria-
-     labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title" id="gridSystemModalLabel">COVID-19 FSA</h6>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-                
-                <canvas id="myChart"></canvas>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-<!--FIM MODAL -->
+        <!--FIM MODAL -->
 
         <a href="#" data-toggle="modal" data-target="#bannerformmodal" class="ml-2">
                     
@@ -48,29 +44,36 @@
             </strong>
         </p>
         
-
         <div class="card-deck">
             <div class="card bg-vermelho">
                 <div class="card-body">
-                <h5 class="card-title">QUANTIDADE DE INFECTADOS</h5>
+                <h5 class="card-title">QTDE INFECTADOS</h5>
                 <p class="card-text pt-3"><?php echo qtdeInfectado(); ?></p>
                 </div>
             </div>
 
             <div class="card bg-verde">
                 <div class="card-body">
-                <h5 class="card-title">QUANTIDADE DE RECUPERADOS</h5>
+                <h5 class="card-title">QTDE RECUPERADOS</h5>
                 <p class="card-text pt-3"><?php echo qtdeCurados(); ?></p>
+                </div>
+            </div>
+
+            <div class="card bg-amarelo">
+                <div class="card-body">
+                <h5 class="card-title">QTDE ÓBITOS</h5>
+                <p class="card-text pt-3"><?php echo qtdeObitos(); ?></p>
                 </div>
             </div>
 
             <div class="card bg-amarelo" style="background: #00c4cc">
                 <div class="card-body">
                 <h5 class="card-title">TOTAL DE DESPESAS<br><span style="font-size: 8px">em fase de pagamento</span></h5>
-                <p class="card-text pt-3" style="font-size: 30px">R$ <?php echo qtdeGastos(); ?></p>
+                <p class="card-text pt-3" style="font-size: 26px;text-align: center"><?php echo qtdeGastos(); ?></p>
                 </div>
             </div>
         </div>
+
     </section> 
 
     <section class="secao_boletins mt-4">
@@ -101,7 +104,7 @@
                     ?>
                         <tr>
                             <!-- DATA BOLETIM -->
-                            <th scope="row" style="text-align: center"><?php echo date('d/m/yy', strtotime($dados['data_boletim'])); ?></th>
+                            <th scope="row" style="text-align: center"><?php echo date('d/M', strtotime($dados['data_boletim'])); ?></th>
 
                             <!-- QUANTIDADE DE INFECTADOS -->
                             <td>
@@ -154,69 +157,151 @@
         </div>
     </section>
 
-    <section class="secao_gastos mt-5"><!-- SEÇÃO COM OS GASTOS -->
-            <h4>Despesas COVID-19 FSA</h4>
-            <p style="margin-top: -15px">
-                <strong style="font-size: 8px"> 
-                    Dados retirados do 
-                    <a rel="noopener noreferrer" target="_blank" href="http://www.transparencia.feiradesantana.ba.gov.br/index.php?view=despesascovid">
-                        Portal de Transparência
-                    </a>
-                </strong>
-            </p>
+    <section class="secao_gastos mt-5"><!-- SEÇAO TABELA DE GASTOS COMPILADA-->
+        <h4>Resumo Despesas COVID-19 FSA</h4>
+        
+        <p style="margin-top: -15px;">
+            <strong style="font-size: 8px;"> 
+                Dados retirados do 
+                <a rel="noopener noreferrer" target="_blank" href="http://www.transparencia.feiradesantana.ba.gov.br/index.php?view=despesascovid">
+                    Portal de Transparência
+                </a>
+            </strong>
+        </p>
 
-        <div class="table-responsive">
-            <table class="table table-borderless"  id="example">
+        <p style="margin-top: -10px">
+            <strong style="font-size: 12px;background: #007c34;padding: 3px;border-radius: 5px"> 
+                <a href="#" data-toggle="modal" data-target="#tabelamodal" style="color: #fff">
+                    CLIQUE PARA VER DE FORMA DETALHADA
+                </a>
+            </strong>
+        </p>
+
+        <div class="table-responsive table-striped">
+            <table class="table table-borderless" style="width: 80%;margin:0 auto;font-size: 17px">
                 <thead>
-                    <tr>
-                        <th scope="col" style="text-align: center">Data de Publicação</th>
-                        <th scope="col" style="text-align: center">Bem Serviço Prestado</th>
-                        <th scope="col" style="text-align: center">Credor</th>
-                        <th scope="col" style="text-align: center">Valor</th>
-                        <th scope="col" style="text-align: center">Natureza</th>
-                        <th scope="col" style="text-align: center">Fase</th>
+                    <tr style="background: #00c4cc;color: #fff;font-weight: bold">                        
+                        <th scope="col" style="text-align: center">NATUREZA</th>
+                        <th scope="col" style="text-align: center">VALOR</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     <?php
                     $sql = "SELECT 
-                    gastos.*,
-                    format(Valor,2,'de_DE') as VL 
+                    Natureza,
+                    format(Valor,2,'de_DE') as VL
                     FROM gastos
-                    ORDER BY Data_de_Publicacao desc
+                    GROUP BY Natureza  
+                    ORDER BY Valor  DESC
                     ";
                     $query = $mysqli->query($sql);
                     while ($dados = $query->fetch_array()) {
                     ?>
-                        <tr>
-                            <!-- DATA BOLETIM -->
-                            <th scope="row" style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px"><?php echo date('d/m/yy', strtotime($dados['Data_de_Publicacao'])); ?>
-                            </th>                            
-                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                <?php echo $dados['Bem_Servico_Prestado']; ?>
-                            </td>
-                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                <?php echo $dados['Credor']; ?>
-                            </td>
-                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                R$ <?php echo $dados['VL']; ?>
-                            </td>
-                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                <?php echo $dados['Natureza']; ?>
-                            </td>
-                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
-                                <?php echo "Pagamento";//$dados['Modalidade']; ?>
-                            </td>                            
-                        </tr>
+                    <tr>
+                            
+                        <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 15px">
+                            <?php echo $dados['Natureza']; ?>
+                        </td>
+                        <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 15px">
+                            R$ <?php echo $dados['VL']; ?>
+                        </td>                                                       
+                    </tr>
 
                     <?php } ?>
+
+                    <tr style="background: #00c4cc;color: #fff;font-weight: bold">
+                            
+                        <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 20px">
+                            TOTAL
+                        </td>
+                        <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 17px">
+                            R$ <?php echo qtdeGastos(); ?>
+                        </td>                                                       
+                    </tr>
 
                    
                 </tbody>
             </table>
-        </div>
+
+
     </section>
+
+    <div class="modal fade" id="tabelamodal" tabindex="-1" role="dialog" aria-
+        labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="gridSystemModalLabel">
+                        COVID-19 FSA                    
+                    </h6>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body" style="margin-top: -20px;">
+
+                    <section class="secao_gastos mt-5" style="overflow-x: visible !important;"><!-- SEÇÃO COM OS GASTOS -->
+                            
+                        <div class="table-responsive">
+                            <table class="table table-borderless"  id="example">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="text-align: center">Data de Publicação</th>
+                                        <th scope="col" style="text-align: center">Bem Serviço Prestado</th>
+                                        <th scope="col" style="text-align: center">Credor</th>
+                                        <th scope="col" style="text-align: center">Valor</th>
+                                        <th scope="col" style="text-align: center">Natureza</th>
+                                        <th scope="col" style="text-align: center">Fase</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <?php
+                                    $sql = "SELECT 
+                                    gastos.*,
+                                    format(Valor,2,'de_DE') as VL 
+                                    FROM gastos
+                                    ORDER BY Data_de_Publicacao desc
+                                    ";
+                                    $query = $mysqli->query($sql);
+                                    while ($dados = $query->fetch_array()) {
+                                    ?>
+                                        <tr>
+                                            <!-- DATA BOLETIM -->
+                                            <th scope="row" style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px"><?php echo date('d/m/yy', strtotime($dados['Data_de_Publicacao'])); ?>
+                                            </th>                            
+                                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
+                                                <?php echo $dados['Bem_Servico_Prestado']; ?>
+                                            </td>
+                                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
+                                                <?php echo $dados['Credor']; ?>
+                                            </td>
+                                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
+                                                R$ <?php echo $dados['VL']; ?>
+                                            </td>
+                                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
+                                                <?php echo $dados['Natureza']; ?>
+                                            </td>
+                                            <td style="text-align: center;vertical-align: middle;font-weight: normal;font-size: 12px">
+                                                <?php echo "Pagamento";//$dados['Modalidade']; ?>
+                                            </td>                            
+                                        </tr>
+
+                                    <?php } ?>
+
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <section class="secao_tweets mt-5">
         <h4>Últimas informações</h4>
@@ -236,9 +321,7 @@
         </div>
     </section>
 
-
-
-<div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
+    <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-content">
@@ -266,7 +349,6 @@
             </div>
         </div>
     </div>
-
 
 </main>
 
