@@ -177,7 +177,7 @@
             </strong>
         </p>
 
-        <div class="table-responsive table-striped">
+        <div class="table-responsive table-striped mt-4">
             <table class="table table-borderless" style="width: 80%;margin:0 auto;font-size: 17px">
                 <thead>
                     <tr style="background: #00c4cc;color: #fff;font-weight: bold">                        
