@@ -178,7 +178,7 @@
         </p>
 
         <div class="table-responsive table-striped mt-4">
-            <table class="table table-borderless" style="width: 100%;margin:0 auto;font-size: 17px">
+            <table class="table table-borderless" style="width: 95%;margin:0 auto;font-size: 17px">
                 <thead>
                     <tr style="background: #00c4cc;color: #fff;font-weight: bold">                        
                         <th scope="col" style="text-align: center">NATUREZA</th>
