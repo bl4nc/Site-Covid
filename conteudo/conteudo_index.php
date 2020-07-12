@@ -303,12 +303,12 @@
 
     <section class="secao_depoimentos mt-5">
         <h4>Depoimentos</h4>
-        <!-- Primeira linha -->
         <div class="box_depoimentos mt-4">
+            <!-- Primeira linha -->
             <div class="card-deck">
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -316,10 +316,9 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -327,10 +326,9 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -338,10 +336,9 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -349,69 +346,53 @@
                         </p>
                     </div>
                 </div>
-            </div>
-
-            <!-- <div class="row">
-                <div class="col-sm-12 col-md-3 mt-4">
-                    <div class="card card_shadow" style="width: 100%;">
-                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
-                        <div class="card-body">
-                            <p class="titulo_card_depoimentos">
-                                Rafael Araújo Rocha
-                                <br>
-                                23 anos
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3 mt-4">
-                    <div class="card card_shadow" style="width: 100%;">
-                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
-                        <div class="card-body">
-                            <p class="titulo_card_depoimentos">
-                                Rafael Araújo Rocha
-                                <br>
-                                23 anos
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3 mt-4">
-                    <div class="card card_shadow" style="width: 100%;">
-                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
-                        <div class="card-body">
+            </div>  
+            <!-- Segunda linha -->                              
+            <div class="card-deck">
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="teste">
                         <p class="titulo_card_depoimentos">
-                                Rafael Araújo Rocha
-                                <br>
-                                23 anos
-                            </p>
-                        </div>
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 mt-4">
-                    <div class="card card_shadow" style="width: 100%;">
-                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
-                        <div class="card-body">
-                            <p class="titulo_card_depoimentos">
-                                João Carlos Ferreira Neto
-                                <br>
-                                23 anos
-                            </p>
-                        </div>
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="teste">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="card-depoimentos">
-                <p class="titulo_card_depoimentos">
-                    Rafael Araújo Rocha
-                    <br>
-                    23 anos
-                </p>                                 
-            </div>                             -->
-
-            <!-- Segunda linha -->
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="teste">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="teste">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            
         </div>
     </section>
 

@@ -23,7 +23,7 @@
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .card-deck {
         -ms-flex-flow: column wrap !important;
         flex-flow: column wrap !important;

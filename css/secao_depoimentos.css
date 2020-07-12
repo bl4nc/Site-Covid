@@ -9,20 +9,8 @@
     padding: 40px;
 }
 
-.box_depoimentos .titulo_card_depoimentos{
-    font-family: 'Montserrat', sans-serif;   
-    font-size: 20px;
-    font-weight: 600; 
-}
-
-.box_depoimentos .img_card_depoimentos{
-    width: 92%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 5%;
-}
-
-.box_depoimentos .card_depoimentos{
+.card_depoimentos{
+    padding: 10px;
     border-radius: 0;
     border: none;
     cursor: pointer;
@@ -32,4 +20,19 @@
 
 .box_depoimentos .card_depoimentos:hover{
     box-shadow: rgba(0,0,0,0.5) 12px 12px 32px;
+}
+
+.img_card_depoimentos{
+    width: 100%;
+    height: auto;
+}
+
+.titulo_card_depoimentos{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+.conteudo_card_depoimentos{
+    padding: max(20px, 2vh) 10px 0 10px;
 }
