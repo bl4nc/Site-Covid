@@ -52,21 +52,21 @@
                 </div>
             </div>
 
-            <div class="card bg-verde">
+            <div class="card bg-verde mt-1">
                 <div class="card-body">
                 <h5 class="card-title">QTDE RECUPERADOS</h5>
                 <p class="card-text pt-3"><?php echo qtdeCurados(); ?></p>
                 </div>
             </div>
 
-            <div class="card bg-amarelo">
+            <div class="card bg-amarelo mt-1">
                 <div class="card-body">
                 <h5 class="card-title">QTDE ÓBITOS</h5>
                 <p class="card-text pt-3"><?php echo qtdeObitos(); ?></p>
                 </div>
             </div>
 
-            <div class="card bg-amarelo" style="background: #00c4cc">
+            <div class="card bg-amarelo mt-1" style="background: #00c4cc">
                 <div class="card-body">
                 <h5 class="card-title">TOTAL DE DESPESAS<br><span style="font-size: 8px">em fase de pagamento</span></h5>
                 <p class="card-text pt-3" style="font-size: 26px;text-align: center"><?php echo qtdeGastos(); ?></p>
@@ -301,58 +301,57 @@
         </div>
     </div>
 
-    <section class="secao_tweets mt-5">
-        <h4>Últimas informações</h4>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 mt-4 mb-2" style="height: 400px;overflow-x: hidden;overflow-y: auto">
-                    <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
-                    <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                </div>
-                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
-                    <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-content">
-                    <div class="modal-header">                      
-                        <h4 class="modal-title" id="myModalLabel">Sua mensagem</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="requestacallform" method="post" name="requestacallform">
-
-                            <div class="input-group mb-2">
-                                <input type="email" name="cp1" required class="form-control input_user" placeholder="Seu email" id="validationCustom01">
-                            </div> 
-                            <div class="input-group mb-2">
-                                <textarea class="form-control" rows="5" required name="cp2" style="font-size: 12px"></textarea>
-                            </div>  
-                    </div>
-
-                        <div class="modal-footer">
-                            <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
-                        </div> 
-
-                        </form>       
-                </div>
-            </div>
-        </div>
-    </div>
-
     <section class="secao_depoimentos mt-5">
         <h4>Depoimentos</h4>
         <!-- Primeira linha -->
         <div class="box_depoimentos mt-4">
-            <div class="row">
+            <div class="card-deck">
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card_depoimentos mt-3">
+                    <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="titulo_card_depoimentos">
+                            Rafael Araújo Rocha
+                            <br>
+                            23 anos
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row">
                 <div class="col-sm-12 col-md-3 mt-4">
                     <div class="card card_shadow" style="width: 100%;">
                         <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
@@ -402,9 +401,68 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="card-depoimentos">
+                <p class="titulo_card_depoimentos">
+                    Rafael Araújo Rocha
+                    <br>
+                    23 anos
+                </p>                                 
+            </div>                             -->
+
             <!-- Segunda linha -->
         </div>
     </section>
+
+    <section class="secao_tweets mt-5">
+        <h4>Últimas informações</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 mt-4 mb-2" style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                    <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-content">
+                    <div class="modal-header">                      
+                        <h4 class="modal-title" id="myModalLabel">Sua mensagem</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="requestacallform" method="post" name="requestacallform">
+
+                            <div class="input-group mb-2">
+                                <input type="email" name="cp1" required class="form-control input_user" placeholder="Seu email" id="validationCustom01">
+                            </div> 
+                            <div class="input-group mb-2">
+                                <textarea class="form-control" rows="5" required name="cp2" style="font-size: 12px"></textarea>
+                            </div>  
+                    </div>
+
+                        <div class="modal-footer">
+                            <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+                        </div> 
+
+                        </form>       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
 </main>
 

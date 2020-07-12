@@ -5,6 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -20,15 +26,17 @@ tr, th, td{
 .bg-vermelho{
     background-color: #9b0d02;
 }
+
 .bg-verde{
     background-color:  #007c34;
 }
+
 .bg-amarelo{
     background-color: #dfcc3e;
 }
 
 #conteudo{
-    margin-top: 130px;
+    margin-top: max(112px, 10vh);
 }
 
 @media screen and (max-width: 576px){

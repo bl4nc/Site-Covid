@@ -3,6 +3,7 @@
         font-size: 25px;
     }
 }
+
 @media screen and (max-width: 500px){
     .texto-make{
         font-size: 22px;
@@ -14,9 +15,18 @@
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
+
     .box_depoimentos{
-        border-radius: 10px;
+        border-radius: 30px;
         padding: 30px;
     }
-    
+
 }
+
+@media (max-width: 992px) {
+    .card-deck {
+        -ms-flex-flow: column wrap !important;
+        flex-flow: column wrap !important;
+    }
+}
+
