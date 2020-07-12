@@ -351,7 +351,7 @@
             <div class="card-deck">
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="teste">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -361,7 +361,7 @@
                 </div>
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="teste">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -371,7 +371,7 @@
                 </div>
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="teste">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -381,7 +381,7 @@
                 </div>
                 <div class="card card_depoimentos mt-3">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
-                    <div class="teste">
+                    <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
                             Rafael Araújo Rocha
                             <br>
@@ -390,9 +390,12 @@
                     </div>
                 </div>
             </div>  
-            
-            
-            
+            <div class="mais_depoimentos mt-4">
+                <a href="#" class="btn btn_depoimentos">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    Mais depoimentos
+                </a>
+            </div>                            
         </div>
     </section>
 

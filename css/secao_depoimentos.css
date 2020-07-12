@@ -1,3 +1,9 @@
+@keyframes growLine{
+    to{
+        width: 100%;
+    }
+}
+
 .secao_depoimentos h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
@@ -35,4 +41,30 @@
 
 .conteudo_card_depoimentos{
     padding: max(20px, 2vh) 10px 0 10px;
+}
+
+.mais_depoimentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_depoimentos{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+    width: auto;
+}
+
+.btn_depoimentos::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: #212529;
+}
+
+.btn_depoimentos:hover::after{
+    animation: growLine 0.3s ease-out forwards;
 }
