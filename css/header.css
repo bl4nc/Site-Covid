@@ -44,10 +44,6 @@ nav{
     margin: 0;
 }
 
-.zoom {
-    /* overflow: hidden; */
-}
-
 .zoom img {
     width: 50%;
     -moz-transition: all 0.3s;

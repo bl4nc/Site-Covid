@@ -222,8 +222,6 @@
                    
                 </tbody>
             </table>
-
-
     </section>
 
     <div class="modal fade" id="tabelamodal" tabindex="-1" role="dialog" aria-
@@ -307,14 +305,14 @@
         <h4>Últimas informações</h4>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 mt-4 mb-2" style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-12 col-md-4 mt-4 mb-2" style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/PrefeituraFeira?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="col-sm-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/colbertprefeito?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 </div>
-                <div class="col-sm-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
+                <div class="col-sm-12 col-md-4 mt-4 mb-2"  style="height: 400px;overflow-x: hidden;overflow-y: auto">
                     <a class="twitter-timeline" href="https://twitter.com/Acordacidade?ref_src=twsrc%5Etfw">&nbsp;</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
@@ -349,6 +347,64 @@
             </div>
         </div>
     </div>
+
+    <section class="secao_depoimentos mt-5">
+        <h4>Depoimentos</h4>
+        <!-- Primeira linha -->
+        <div class="box_depoimentos mt-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 mt-4">
+                    <div class="card card_shadow" style="width: 100%;">
+                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
+                        <div class="card-body">
+                            <p class="titulo_card_depoimentos">
+                                Rafael Araújo Rocha
+                                <br>
+                                23 anos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-4">
+                    <div class="card card_shadow" style="width: 100%;">
+                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
+                        <div class="card-body">
+                            <p class="titulo_card_depoimentos">
+                                Rafael Araújo Rocha
+                                <br>
+                                23 anos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-4">
+                    <div class="card card_shadow" style="width: 100%;">
+                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
+                        <div class="card-body">
+                        <p class="titulo_card_depoimentos">
+                                Rafael Araújo Rocha
+                                <br>
+                                23 anos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-4">
+                    <div class="card card_shadow" style="width: 100%;">
+                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="imagem de depoimento">
+                        <div class="card-body">
+                            <p class="titulo_card_depoimentos">
+                                João Carlos Ferreira Neto
+                                <br>
+                                23 anos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segunda linha -->
+        </div>
+    </section>
 
 </main>
 

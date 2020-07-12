@@ -1,0 +1,33 @@
+.box_depoimentos{
+    background-color: #E8E6E6;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.secao_depoimentos h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.box_depoimentos .titulo_card_depoimentos{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+.box_depoimentos .img_card_depoimentos{
+    width: 92%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.box_depoimentos .card_shadow{
+    border-radius: 0;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.3) 0px 6px 16px 2px;
+    transition: all .5s ease-out;
+}
+.box_depoimentos .card_shadow:hover{
+    box-shadow: rgba(0,0,0,0.5) 12px 12px 32px;
+}

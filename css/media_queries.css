@@ -14,4 +14,9 @@
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
+    .box_depoimentos{
+        border-radius: 10px;
+        padding: 30px;
+    }
+    
 }

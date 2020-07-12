@@ -28,36 +28,11 @@ tr, th, td{
 }
 
 #conteudo{
-    margin-top: 11%;
+    margin-top: 130px;
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 576px){
     #conteudo{
-        margin-top: 13%;
-    }
-}
-@media screen and (max-width: 1025px){
-    #conteudo{
-        margin-top: 15%;
-    }
-}
-@media screen and (max-width: 820px){
-    #conteudo{
-        margin-top: 17%;
-    }
-}
-@media screen and (max-width: 745px){
-    #conteudo{
-        margin-top: 22%;
-    }
-}
-@media screen and (max-width: 555px){
-    #conteudo{
-        margin-top: 26%;
-    }
-}
-@media screen and (max-width: 400px){
-    #conteudo{
-        margin-top: 30%;
+        margin-top: 90px;
     }
 }
