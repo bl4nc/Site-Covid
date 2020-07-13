@@ -391,8 +391,9 @@
                     </div>
                 </div>
             </div>  
+
             <div class="mais_depoimentos mt-4">
-                <a href="#" class="btn btn_depoimentos">
+                <a href="depoimentos.php" class="btn btn_depoimentos">
                     <i class="fa fa-plus"></i>
                     Mais depoimentos
                 </a>
