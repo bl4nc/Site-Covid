@@ -9,6 +9,7 @@
     opacity: 0;
     display: none;
     transition: all 0.5 ease-out;
+    overflow: initial;
 }
 
 .modal_covid{
@@ -24,7 +25,28 @@
     border-radius: 8px;
 }
 
+.modal_covid h2{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal_covid p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .modal_covid_open{
     opacity: 1;
     display: block;
+}
+
+.modal_close{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* ALTERAR ORDEM DE EXIBIÇÃO DA COLUNA NO MOBILE */
+.initial-mobile{
+    order: 1;
 }

@@ -16,10 +16,6 @@
     padding: 40px;
 }
 
-.box_depoimentos .card_depoimentos:hover{
-    box-shadow: rgba(0,0,0,0.5) 12px 12px 32px;
-}
-
 .card_depoimentos{
     padding: 10px;
     border-radius: 0;
@@ -27,6 +23,10 @@
     cursor: pointer;
     box-shadow: rgba(0,0,0,0.3) 0px 6px 16px 2px;
     transition: all .5s ease-out;
+}
+
+.card_depoimentos:hover{
+    box-shadow: rgba(0,0,0,0.5) 12px 12px 32px;
 }
 
 .img_card_depoimentos{

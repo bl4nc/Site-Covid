@@ -393,7 +393,7 @@
             </div>  
             <div class="mais_depoimentos mt-4">
                 <a href="#" class="btn btn_depoimentos">
-                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <i class="fa fa-plus"></i>
                     Mais depoimentos
                 </a>
             </div>                            
@@ -401,8 +401,31 @@
     </section>
 
     <div class="overlay">
-        <div class="modal_covid">
-            <h1>Depoimento</h1>
+        <div class="modal_covid mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 p-3">
+                        <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
+                        <div class="conteudo_card_depoimentos">
+                            <p class="titulo_card_depoimentos">
+                                Rafael Araújo Rocha
+                                <br>
+                                23 anos
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-8 p-3 initial-mobile">
+                        <h2>Depoimento</h2>
+                        <p class="mt-3 text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis architecto magnam asperiores provident odit maiores quam eligendi. Tempore amet a iusto culpa dolores, autem rerum cumque enim aperiam sit tempora.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal_close mb-3">
+                <i class="fa fa-arrow-left"></i>
+            </div>
         </div>
     </div>
 

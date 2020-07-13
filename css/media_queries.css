@@ -20,6 +20,15 @@
         border-radius: 30px;
         padding: 30px;
     }
+
+    /* ALTERA ORDEM DA COLUNA DOS MODALS DE DEPOIMENTO  */
+    .initial-mobile{
+        order: -1;
+    }
+
+    .overlay{
+        overflow: scroll;
+    }
 }
 
 @media (max-width: 768px) {
