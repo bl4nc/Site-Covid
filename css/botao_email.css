@@ -33,7 +33,7 @@
     bottom: 5%; 
     right: 2%;
     margin: auto;
-    z-index: 9999;
+    z-index: 1500;
 }
 
 @media screen and (max-width: 600px){

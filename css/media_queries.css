@@ -20,7 +20,6 @@
         border-radius: 30px;
         padding: 30px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -29,4 +28,10 @@
         flex-flow: column wrap !important;
     }
 }
+@media (min-width: 576px) {
+    .modal_covid{
+        max-width: 700px;
+    }
+}
+
 

@@ -305,8 +305,9 @@
         <h4>Depoimentos</h4>
         <div class="box_depoimentos mt-4">
             <!-- Primeira linha -->
+            <!-- A classe clickable faz o modal ser aberto -->
             <div class="card-deck">
-                <div class="card card_depoimentos mt-3">
+                <div class="card card_depoimentos mt-3 clickable">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
                     <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
@@ -316,7 +317,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card card_depoimentos mt-3">
+                <div class="card card_depoimentos mt-3 clickable">
                     <img class="img_card_depoimentos" src="midia/depoimentos.jpg" alt="Card image cap">
                     <div class="conteudo_card_depoimentos">
                         <p class="titulo_card_depoimentos">
@@ -399,6 +400,12 @@
         </div>
     </section>
 
+    <div class="overlay">
+        <div class="modal_covid">
+            <h1>Depoimento</h1>
+        </div>
+    </div>
+
     <section class="secao_tweets mt-5">
         <h4>Últimas informações</h4>
         <div class="container">
@@ -445,8 +452,6 @@
             </div>
         </div>
     </div>
-
-    
 
 </main>
 
