@@ -2,7 +2,7 @@
     const clickable = document.querySelectorAll(".clickable");
     const overlay = document.querySelector(".overlay");
     const modal_close = document.querySelector(".modal_close");
-    const closeItems = [ overlay, modal_close];
+    const closeItems = [overlay, modal_close];
     // abrindo e fechando modal
     clickable.forEach(card => {
         card.addEventListener("click", () => {
